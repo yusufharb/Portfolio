@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0C0E"/>
+      <stop offset="100%" stop-color="#111317"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(110,140,255,0.12)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.04">
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="0" y1="158" x2="1200" y2="158" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="0" y1="316" x2="1200" y2="316" stroke="#F2F1ED" stroke-width="1"/>
+    <line x1="0" y1="474" x2="1200" y2="474" stroke="#F2F1ED" stroke-width="1"/>
+  </g>
+  
+  <!-- Accent dot -->
+  <circle cx="600" cy="180" r="4" fill="#6E8CFF"/>
+  
+  <!-- Eyebrow -->
+  <text x="600" y="210" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#6E8CFF" text-anchor="middle" letter-spacing="3" font-weight="500">AI PRODUCT OPERATIONS</text>
+  
+  <!-- Name -->
+  <text x="600" y="290" font-family="Georgia, serif" font-size="64" fill="#F2F1ED" text-anchor="middle" font-weight="500" letter-spacing="-1">Yusuf Hamdy</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="360" font-family="Inter, -apple-system, sans-serif" font-size="22" fill="#A9ACB4" text-anchor="middle" font-weight="400">From messy requirements to developer-ready product work.</text>
+  
+  <!-- Chips row -->
+  <g transform="translate(600, 430)">
+    <!-- Chip: PM -->
+    <rect x="-280" y="-16" width="120" height="32" rx="16" fill="none" stroke="rgba(242,241,237,0.15)" stroke-width="1"/>
+    <text x="-220" y="5" font-family="monospace" font-size="12" fill="#A9ACB4" text-anchor="middle">Product Mgmt</text>
+    
+    <!-- Chip: BA -->
+    <rect x="-140" y="-16" width="120" height="32" rx="16" fill="none" stroke="rgba(242,241,237,0.15)" stroke-width="1"/>
+    <text x="-80" y="5" font-family="monospace" font-size="12" fill="#A9ACB4" text-anchor="middle">Business Analysis</text>
+    
+    <!-- Chip: Project -->
+    <rect x="0" y="-16" width="120" height="32" rx="16" fill="none" stroke="rgba(242,241,237,0.15)" stroke-width="1"/>
+    <text x="60" y="5" font-family="monospace" font-size="12" fill="#A9ACB4" text-anchor="middle">Project Mgmt</text>
+    
+    <!-- Chip: AI -->
+    <rect x="140" y="-16" width="120" height="32" rx="16" fill="none" stroke="rgba(110,140,255,0.3)" stroke-width="1"/>
+    <text x="200" y="5" font-family="monospace" font-size="12" fill="#6E8CFF" text-anchor="middle">AI Automation</text>
+  </g>
+  
+  <!-- Bottom border accent -->
+  <rect x="400" y="618" width="400" height="2" rx="1" fill="#6E8CFF" opacity="0.4"/>
+</svg>
